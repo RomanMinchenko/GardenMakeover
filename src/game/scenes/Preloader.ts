@@ -74,7 +74,7 @@ export class Preloader extends Scene {
 
     const texturePromises = Object.values(TEXTURES_LIST).map((name) => {
       return new Promise<void>((resolve, reject) => {
-        this.textureLoader.load(`images/${name}`,
+        this.textureLoader.load(`textures/${name}`,
           (texture) => {
             THREE.Cache.add(name, texture);
             resolve();
