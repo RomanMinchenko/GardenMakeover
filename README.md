@@ -3,7 +3,7 @@
 A 3D farm and garden makeover game built with Three.js, TypeScript, and Webpack.
 
 ## Builded version
-https://romanminchenko.github.io/GardenMakeover-ts/
+https://romanminchenko.github.io/GardenMakeover/
 
 ## Installation
 
