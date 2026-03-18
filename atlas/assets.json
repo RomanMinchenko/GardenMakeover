@@ -1,0 +1,723 @@
+{
+  "textures": [
+    {
+      "image": "assets-0.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 833,
+        "h": 1023
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "logo",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 512,
+            "h": 512
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          },
+          "frame": {
+            "x": 2,
+            "y": 2,
+            "w": 512,
+            "h": 512
+          }
+        },
+        {
+          "filename": "barn",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 2,
+            "y": 518,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "moneyIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 182,
+            "h": 160
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 182,
+            "h": 160
+          },
+          "frame": {
+            "x": 2,
+            "y": 778,
+            "w": 182,
+            "h": 160
+          }
+        },
+        {
+          "filename": "smoke",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 80,
+            "h": 79
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 79
+          },
+          "frame": {
+            "x": 2,
+            "y": 942,
+            "w": 80,
+            "h": 79
+          }
+        },
+        {
+          "filename": "icon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          },
+          "frame": {
+            "x": 86,
+            "y": 942,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "barnIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 154,
+            "y": 942,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "btn_square_bg",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 214,
+            "y": 942,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "chickenIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 274,
+            "y": 942,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "smoke_alpha",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 188,
+            "y": 778,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "chicken",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 262,
+            "y": 518,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "progress",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 28
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 28
+          },
+          "frame": {
+            "x": 188,
+            "y": 910,
+            "w": 56,
+            "h": 28
+          }
+        },
+        {
+          "filename": "resourcesBg",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 71,
+            "h": 112
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 71,
+            "h": 112
+          },
+          "frame": {
+            "x": 320,
+            "y": 778,
+            "w": 71,
+            "h": 112
+          }
+        },
+        {
+          "filename": "time_icon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 36,
+            "h": 36
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 36,
+            "h": 36
+          },
+          "frame": {
+            "x": 320,
+            "y": 894,
+            "w": 36,
+            "h": 36
+          }
+        },
+        {
+          "filename": "start",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 86,
+            "h": 86
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 86,
+            "h": 86
+          },
+          "frame": {
+            "x": 334,
+            "y": 934,
+            "w": 86,
+            "h": 86
+          }
+        },
+        {
+          "filename": "cornIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 424,
+            "y": 934,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "cowIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 484,
+            "y": 934,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "fenceIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 544,
+            "y": 934,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "grapeIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 395,
+            "y": 778,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "plantsIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 395,
+            "y": 838,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "sheepIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 455,
+            "y": 778,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "skip_day",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 455,
+            "y": 838,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "strawberryIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 515,
+            "y": 778,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "tomatoIcon",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 56,
+            "h": 56
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 515,
+            "y": 838,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "link_btn_bg",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 206,
+            "h": 52
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 206,
+            "h": 52
+          },
+          "frame": {
+            "x": 575,
+            "y": 838,
+            "w": 206,
+            "h": 52
+          }
+        },
+        {
+          "filename": "corn",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 575,
+            "y": 2,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "cow",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 575,
+            "y": 262,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "egg",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 575,
+            "y": 522,
+            "w": 256,
+            "h": 256
+          }
+        }
+      ]
+    },
+    {
+      "image": "assets-1.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 780,
+        "h": 780
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "fence",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 2,
+            "y": 2,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "grape",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 2,
+            "y": 262,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "money",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 2,
+            "y": 522,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "sheep",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 262,
+            "y": 2,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "strawberry",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 522,
+            "y": 2,
+            "w": 256,
+            "h": 256
+          }
+        },
+        {
+          "filename": "tomato",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 256
+          },
+          "frame": {
+            "x": 262,
+            "y": 262,
+            "w": 256,
+            "h": 256
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "http://github.com/odrick/free-tex-packer-core",
+    "version": "0.3.5"
+  }
+}
