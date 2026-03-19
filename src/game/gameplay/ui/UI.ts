@@ -51,7 +51,7 @@ export default class UI extends Phaser.GameObjects.Container {
 
     this.updateResourceUnitContainerSize(width, height);
     this.updateResourceCounterPosition(width, height);
-    this.updateNextDayButtonPosition(width, height);
+    this.updateNextDayButtonContainerPosition(width, height);
     this.updateProgressBarPosition(width, height);
     this.updateItemTypeBtnGroupPosition(width, height);
     this.updateItemsBtnGroupPosition(this.plantBtnGroup, width, height);
@@ -92,7 +92,7 @@ export default class UI extends Phaser.GameObjects.Container {
     this.resourceCounter.setPosition(resourceCounterX, resourceCounterY);
   }
 
-  private updateNextDayButtonPosition(width: number, height: number): void {
+  private updateNextDayButtonContainerPosition(width: number, height: number): void {
     const buttonBounds = this.nextDayButtonContainer.getBounds();
     const nextDayButtonX = width / 2 - PADDING - buttonBounds.width / 2;
     const nextDayButtonY = -height / 2 + PADDING + buttonBounds.height / 2;

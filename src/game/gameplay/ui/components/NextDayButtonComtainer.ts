@@ -75,16 +75,17 @@ export default class NextDayButtonContainer extends Phaser.GameObjects.Container
 
   private setPositions(): void {
     const { nextDayButton, timeText, timeIcon } = this;
-    const totalWidth = nextDayButton.width + timeIcon.displayWidth + timeText.width;
+    const totalWidth = [nextDayButton, timeIcon, timeText]
+      .reduce((sum, element) => sum + element.displayWidth, 0) + GAP * 2;
     const startX = -totalWidth / 2;
 
     const timeIconX = startX + timeIcon.displayWidth / 2;
     timeIcon.setPosition(timeIconX, 0);
 
-    const timeTextX = timeIconX + timeIcon.displayWidth / 2 + timeText.width / 2 + GAP;
+    const timeTextX = timeIconX + timeIcon.displayWidth / 2 + timeText.displayWidth / 2 + GAP;
     timeText.setPosition(timeTextX, 0);
 
-    const nextDayButtonX = timeTextX + timeText.width / 2 + nextDayButton.width / 2 + GAP;
+    const nextDayButtonX = timeTextX + timeText.displayWidth / 2 + nextDayButton.displayWidth / 2 + GAP;
     nextDayButton.setPosition(nextDayButtonX, 0);
   }
 
